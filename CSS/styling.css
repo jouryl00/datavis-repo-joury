@@ -21,8 +21,13 @@ img{
     border-style: groove;
 }
 iframe{
+    border-width: 10px;
+    border-color: red;
+    border-style: groove;
     width: 300px;
     height: 200px;
+    float:right;
+    margin: 20px, 20px, 20px, 50px;
 }
 
 p.usertext{
@@ -31,23 +36,29 @@ p.usertext{
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-p {color: pink;}
+p {color: rgb(255, 255, 255);}
 p#speciaal {color: red;}
 
 body {
     background-color: brown;
-    background-image: url(../img/image.jpg);
-    background-size: 100px;
+    background-image: url(../img/Png_29.webp);
+    background-size: 200px;
 }
 img.lovedovey {
+    float: left;
+    margin-right: 20px;
     width: 500px;
     height: 500px;
 }
 img.lovebox {
+    float: right;
+    margin-right: 20px;
     width: 500px;
     height: 500px;
 }
 img.nurul {
+    margin-top: 100px;
+
     width: 500px;
     height: 500px;
 }
