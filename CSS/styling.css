@@ -25,12 +25,18 @@ iframe{
     height: 200px;
 }
 
+p.usertext{
+    color :white;
+    font-size: 80px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
 p {color: pink;}
 p#speciaal {color: red;}
 
 body {
     background-color: brown;
-    background-image: url(../img/my\ love.jpg);
+    background-image: url(../img/image.jpg);
     background-size: 100px;
 }
 img.lovedovey {
@@ -38,6 +44,14 @@ img.lovedovey {
     height: 500px;
 }
 img.lovebox {
+    width: 500px;
+    height: 500px;
+}
+img.nurul {
+    width: 500px;
+    height: 500px;
+}
+img.svg_worthseeing {
     width: 500px;
     height: 500px;
 }
